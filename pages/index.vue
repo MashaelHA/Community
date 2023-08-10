@@ -1,19 +1,21 @@
 <template>
   <div>
-
-    <Navbar></Navbar>
-
+    
+    <navbar/>
+    <!-- <span class="icon is-left">
+      <font-awesome-icon :icon="['fas', 'envelope']" />
+    </span> -->
 
 
 
 
     <!-- <h1> -->
-      <!-- Hi at index page -->
-      <!-- <NuxtLink to="/home">Home page</NuxtLink>
+    <!-- Hi at index page -->
+    <!-- <NuxtLink to="/home">Home page</NuxtLink>
       <br>
       <NuxtLink to="/about">About page</NuxtLink>
       <br> -->
-      <!-- <NuxtLink to="hi">Hi page</NuxtLink> -->
+    <!-- <NuxtLink to="hi">Hi page</NuxtLink> -->
     <!-- </h1> -->
 
 
@@ -32,14 +34,12 @@
 </template>
 
 <script>
-import Navbar from "../components/header/navbar.vue";
 import navbar from "../components/header/navbar.vue";
 export default {
   name: 'IndexPage',
   components: {
     navbar,
-    Navbar
-}
+  }
 
 }
 </script>

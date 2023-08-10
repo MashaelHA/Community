@@ -1,15 +1,17 @@
 <template>
-    <div class="members-page">
-        
-        Members
+    <div>
+        <navbar/>
+        <members/>
     </div>
 </template>
   
 <script>
+import navbar from "../components/header/navbar.vue";
 import members from "../components/members.vue";
 export default {
     name: "App",
     components: {
+        navbar,
         members,
     },
     data() {

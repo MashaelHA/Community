@@ -1,5 +1,7 @@
 <template>
-    <h1> Hi from About </h1>
+    <div class="about">
+        About
+    </div>
 </template>
 
 <script>

@@ -1,15 +1,17 @@
 <template>
     <div class="Albums-page">
-
-        Albums
+        <navbar />
+        <albums />
     </div>
 </template>
   
 <script>
+import navbar from "../components/header/navbar.vue";
 import albums from "../components/albums.vue";
 export default {
     name: "App",
     components: {
+        navbar,
         albums,
     },
     data() {

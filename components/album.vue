@@ -1,11 +1,15 @@
 <template>
-    <div>
-        <h1>Hi</h1>
+    <div class="album">
+        Album
     </div>
 </template>
-  
+
 <script>
 export default {
-    name: 'IndexPage'
-}
+
+};
 </script>
+
+
+<style scoped>
+</style>

@@ -1,20 +1,17 @@
 <template>
     <div class="about-page">
-        <about></about>
-        <br>
-        <h3>
-            <NuxtLink to="/home">Home page</NuxtLink>
-            <br>
-            <NuxtLink to="hi">Hi page</NuxtLink>
-        </h3>
+        <navbar/>
+        <about/>
     </div>
 </template>
   
 <script>
+import navbar from "../components/header/navbar.vue";
 import about from "../components/about.vue";
 export default {
     name: "App",
     components: {
+        navbar,
         about,
     },
     data() {
@@ -35,8 +32,8 @@ export default {
 </script>
 
 <style scoped>
-.about-page {
+/* .about-page {
     margin-top: 30vh;
     text-align: center;
-}
+} */
 </style>

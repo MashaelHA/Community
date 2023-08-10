@@ -2,7 +2,7 @@
     <div class="Navbar">
 
         <div>
-            <b-navbar toggleable="lg" type="light" variant="light">
+            <b-navbar type="light" variant="light"> <!-- toggleable="lg" -->
                 <b-navbar-brand href="#">
                     <img src="../../assets/icons/icon.png" alt="icon">
                 </b-navbar-brand>
@@ -12,16 +12,10 @@
                 <b-collapse id="nav-collapse" is-nav v-for="item in navbar_items" v-bind:key="item.id">
                     <b-navbar-nav>
                         <b-nav-item href="#">
-                            <!-- <i class="fa fa-home"></i> -->
-                            <!-- <font-awesome-icon :icon="['fab', 'vuejs']" /> -->
                             <NuxtLink :to="item.route" class="nav-link">
-                                <!-- <span :class="'fa fa-{item.icon}'"></span> -->
-                                <!-- <span>
-                                    <font-awesome-icon :icon="['fas','envelope']"/>
+                                <span class="icon is-left">
+                                    <font-awesome-icon :icon="['fas', item.icon]" />
                                 </span>
-                                <span class="icon"><font-awesome-icon :icon="['fas', 'sign-in-alt']"/></span> -->
-                                <!-- <font-awesome-icon icon="fa-solid fa-user-secret" /> -->
-                                <!-- <i class="fa-brands fa-vuejs"></i> -->
                                 {{ item.name }}
                             </NuxtLink>
                         </b-nav-item>
@@ -51,13 +45,25 @@ export default {
                     id: 2,
                     name: 'Posts',
                     route: '/posts',
-                    icon: ''
+                    icon: 'newspaper'
                 },
                 {
                     id: 3,
                     name: 'Albums',
                     route: '/albums',
-                    icon: ''
+                    icon: 'images'
+                },
+                {
+                    id: 4,
+                    name: 'Members',
+                    route: '/members',
+                    icon: 'users'
+                },
+                {
+                    id: 5,
+                    name: 'About us',
+                    route: '/about',
+                    icon: 'question'
                 },
             ]
         }

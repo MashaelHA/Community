@@ -1,14 +1,17 @@
 <template>
-    <div class="posts-page">
-        posts
+    <div class="pots-page">
+        <navbar/>
+        <posts/>
     </div>
 </template>
   
 <script>
+import navbar from "../components/header/navbar.vue";
 import posts from "../components/posts.vue";
 export default {
     name: "App",
     components: {
+        navbar,
         posts,
     },
     data() {
