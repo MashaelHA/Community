@@ -1,21 +1,16 @@
 <template>
-    <div class="home-page">
-        <!-- <home></home> -->
-        <br>
-        <h3>
-            <NuxtLink to="/about">About page</NuxtLink>
-            <br>
-            <NuxtLink to="hi">Hi page</NuxtLink>
-        </h3>
+    <div class="members-page">
+        
+        Members
     </div>
 </template>
   
 <script>
-import home from "../components/home.vue";
+import members from "../components/members.vue";
 export default {
     name: "App",
     components: {
-        home,
+        members,
     },
     data() {
         return {

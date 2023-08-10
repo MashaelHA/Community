@@ -1,5 +1,5 @@
 <template>
-    <div class="Hi-page">
+    <div class="Album-page">
         <Hi></Hi>
         <br>
         <h3>
@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import Hi from '../components/Hi_.vue';
+import album from '../components/album.vue';
 
 export default {
-    components: { Hi }
+    components: { album }
 }
 </script>
 

@@ -1,21 +1,15 @@
 <template>
-    <div class="home-page">
-        <!-- <home></home> -->
-        <br>
-        <h3>
-            <NuxtLink to="/about">About page</NuxtLink>
-            <br>
-            <NuxtLink to="hi">Hi page</NuxtLink>
-        </h3>
+    <div class="posts-page">
+        posts
     </div>
 </template>
   
 <script>
-import home from "../components/home.vue";
+import posts from "../components/posts.vue";
 export default {
     name: "App",
     components: {
-        home,
+        posts,
     },
     data() {
         return {

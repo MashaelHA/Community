@@ -1,16 +1,23 @@
 <template>
   <div>
-    <h1>
-    <!-- Hi at index page -->
-    <NuxtLink to="/home">Home page</NuxtLink>
-    <br>
-    <NuxtLink to="/about">About page</NuxtLink>
-    <br>
-    <NuxtLink to="hi">Hi page</NuxtLink>
-    </h1>
+
+    <Navbar></Navbar>
 
 
-  <!-- <header>
+
+
+
+    <!-- <h1> -->
+      <!-- Hi at index page -->
+      <!-- <NuxtLink to="/home">Home page</NuxtLink>
+      <br>
+      <NuxtLink to="/about">About page</NuxtLink>
+      <br> -->
+      <!-- <NuxtLink to="hi">Hi page</NuxtLink> -->
+    <!-- </h1> -->
+
+
+    <!-- <header>
     <nav>
       <ul>
         <li><NuxtLink to="/about">About</NuxtLink></li>
@@ -25,16 +32,22 @@
 </template>
 
 <script>
+import Navbar from "../components/header/navbar.vue";
+import navbar from "../components/header/navbar.vue";
 export default {
   name: 'IndexPage',
-  components: {  }
+  components: {
+    navbar,
+    Navbar
+}
 
 }
 </script>
 
-<style scoped>
-h1 {
+<style>
+/* @import 'bootsrtrp/dist/css/bootstrap.css'; */
+/* h1 {
   margin-top: 30vh;
   text-align: center;
-}
+} */
 </style>
