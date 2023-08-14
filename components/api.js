@@ -5,9 +5,6 @@ export default {
     const request = await fetch(API_URL + "/" + resource, {
       method: method,
       body: body,
-      //   headers: {
-      //     "Content-type": "application/json; charset=UTF-8",
-      //   },
     });
     //   .then((response) => response.json())
     //   .then((data) => {

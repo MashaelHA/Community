@@ -31,8 +31,5 @@ export default {
 };
 </script>
 <style scoped>
-.home-page {
-    margin-top: 30vh;
-    text-align: center;
-}
+
 </style>

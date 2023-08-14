@@ -2,7 +2,7 @@
     <div class="Navbar">
 
         <div>
-            <b-navbar type="light" variant="light"> <!-- toggleable="lg" -->
+            <b-navbar type="light" variant="light" toggleable="lg">
                 <b-navbar-brand href="#">
                     <img src="../../assets/icons/icon.png" alt="icon">
                 </b-navbar-brand>

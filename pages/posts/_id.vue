@@ -1,14 +1,17 @@
 <template>
-    <div class="post-page">
-        post
+    <div class="pot-page">
+        <navbar/>
+        <post/>
     </div>
 </template>
   
 <script>
-import post from "../components/post.vue";
+import navbar from "../../components/header/navbar.vue";
+import post from "../../components/post.vue";
 export default {
     name: "App",
     components: {
+        navbar,
         post,
     },
     data() {
@@ -28,8 +31,5 @@ export default {
 };
 </script>
 <style scoped>
-.home-page {
-    margin-top: 30vh;
-    text-align: center;
-}
+
 </style>
