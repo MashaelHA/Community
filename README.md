@@ -1,11 +1,17 @@
 # Community
 
-It is a community project website. The project structure includes various components for different sections of the website, such as the homepage, posts, albums, members, and more. The navigation bar contains links to these different sections.
+The project is a community project website with various sections such as homepage, posts, albums, and members. The navigation bar contains links to these sections. The project follows a modular structure, utilizing separate components for different sections to ensure organization and maintainability. The website uses data from the API at https://jsonplaceholder.typicode.com
 
 
-The project follows a modular structure by dividing the functionality into separate components. Each component is responsible for a specific part of the website, making the codebase more organized and maintainable.
 
-Overall, I was building a community project website using Nuxt.js and Vue.js, with a focus on creating a user-friendly navigation experience and displaying various types of content to users.
+
+
+
+
+
+
+
+
 
 ## Build Setup
 
