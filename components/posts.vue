@@ -3,7 +3,7 @@
 
         <div class="row m-3" v-if="posts.length > 0">
             <div class="col-12 col-md-4 mb-3" v-for="post in posts" :key="post.id">
-                <NuxtLink :to="'/posts/'+post.id" class="text-decoration-none">
+                <NuxtLink :to="'/posts/' + post.id" class="text-decoration-none">
                     <div id="post" class="card">
                     </div>
                     <div class="card-header bg-primary text-white">
@@ -83,5 +83,4 @@ export default {
         /* background-color: blue; */
     }
 }
-
 </style>

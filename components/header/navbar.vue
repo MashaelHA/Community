@@ -1,5 +1,5 @@
 <template>
-    <div class="Navbar">
+    <div class="Navbar shadow-lg">
 
         <div>
             <b-navbar type="light" variant="light" toggleable="lg">
@@ -61,9 +61,9 @@ export default {
                 },
                 {
                     id: 5,
-                    name: 'About us',
-                    route: '/about',
-                    icon: 'question'
+                    name: 'Title',
+                    route: '/title',
+                    icon: 'file'
                 },
             ]
         }

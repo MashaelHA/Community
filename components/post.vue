@@ -39,7 +39,7 @@ export default {
         const postResource = `posts/${this.$route.params.id}`;
         api.get(postResource).then(async data => {
             this.post = data;
-            console.log(this.post)
+            // console.log(this.post)
             this.comments = await api.get(`${postResource}/comments`)
         }
         )

@@ -48,7 +48,7 @@ export default {
                 avatar: this.getRandomImage('png')
             }));
 
-            console.log(this.members);
+            // console.log(this.members);
         } catch (error) {
             console.error('Error fetching members:', error);
         }

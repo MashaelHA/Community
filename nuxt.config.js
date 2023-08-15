@@ -68,6 +68,11 @@ export default {
           path: "/posts/:id?",
           component: "pages/post/_id.vue",
         },
+        {
+          name: "album",
+          path: "/albums/:id?",
+          component: "pages/album/_id.vue",
+        },
       ],
     },
   },

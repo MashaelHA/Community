@@ -1,18 +1,18 @@
 <template>
-    <div class="about-page">
+    <div class="album-page">
         <navbar/>
-        <about/>
+        <album/>
     </div>
 </template>
   
 <script>
-import navbar from "../components/header/navbar.vue";
-import about from "../components/about.vue";
+import navbar from "../../components/header/navbar.vue";
+import album from '../../components/album.vue';
 export default {
     name: "App",
     components: {
         navbar,
-        about,
+        album,
     },
     data() {
         return {
@@ -30,10 +30,6 @@ export default {
     },
 };
 </script>
-
 <style scoped>
-/* .about-page {
-    margin-top: 30vh;
-    text-align: center;
-} */
+
 </style>
